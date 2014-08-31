@@ -14,6 +14,8 @@ If you want a full fledged REST service (POST/PUT/DELETE), one needs to get funk
 By putting this nodejs application (a REST-proxy) in front of your sheetlabs api, you can 
 reroute PUT/POST/DELETE-calls to a gscript which is connected to your spreadsheet.
 From there you can decide what to do with those requests.
+<br>
+<img alt="" src=".res/how.png"/>
 
 # Installation
 
@@ -21,7 +23,9 @@ first create a spreadsheet with tabs 'Sheet1' and 'Incoming' like so:
 
 <img alt="" src=".res/ghowto1.png"/>
 <br>
+<br>
 Now turn this spreadsheet into an sheetlabs.com, this eventually will give you an api-url.
+<br>
 <br>
 <img alt="" src=".res/ghowto2.png"/>
 <br>
