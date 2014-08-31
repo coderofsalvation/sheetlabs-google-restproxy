@@ -57,3 +57,8 @@ And you should end up seeing something like this:
 * Google gscript/spreadsheet api is slooowwww..not recommended for highvolume traffic
 
 the google appscript is currently configured to route POST-request into the 'Sheet1'-tab, and the PUT/DELETE into 'Incoming. This is for example purposes only, you can modify it to your likings.
+
+# Todo
+
+* forward the authentication tokens somehow. Sheetlabs has perfect usermanagement with roles e.g., so it
+would not be smart to re-invent that wheel.
