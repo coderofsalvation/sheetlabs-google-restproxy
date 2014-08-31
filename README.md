@@ -53,4 +53,6 @@ And you should end up seeing something like this:
 
 # Notes 
 
+* Google gscript/spreadsheet api is slooowwww..not recommended for highvolume traffic
+
 the google appscript is currently configured to route POST-request into the 'Sheet1'-tab, and the PUT/DELETE into 'Incoming. This is for example purposes only, you can modify it to your likings.
