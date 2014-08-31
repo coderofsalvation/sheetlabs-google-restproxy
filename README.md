@@ -15,6 +15,7 @@ By putting this nodejs application (a REST-proxy) in front of your sheetlabs api
 reroute PUT/POST/DELETE-calls to a gscript which is connected to your spreadsheet.
 From there you can decide what to do with those requests.
 <br>
+<br>
 <img alt="" src=".res/how.png"/>
 
 # Installation
