@@ -1,0 +1,27 @@
+{
+  "name": "sheetlabs-google-restproxy",
+  "version": "0.0.0",
+  "description": "gscript + nodejs rest-proxy which turn a google spreadsheet in sheetlabs.com into a full REST api",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "~1.6.7",
+    "express": "~4.8.7",
+    "http": "~0.0.0",
+    "request": "~2.40.0",
+    "querystring": "~0.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/coderofsalvation/sheetlabs-google-restproxy"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coderofsalvation/sheetlabs-google-restproxy/issues"
+  },
+  "homepage": "https://github.com/coderofsalvation/sheetlabs-google-restproxy"
+}
