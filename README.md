@@ -25,15 +25,16 @@ first create a spreadsheet with tabs 'Sheet1' and 'Incoming' like so:
 <img alt="" src=".res/ghowto1.png"/>
 <br>
 <br>
-Now turn this spreadsheet into an sheetlabs.com, this eventually will give you an api-url.
-<br>
-<br>
 <img alt="" src=".res/ghowto2.png"/>
 <br>
-
+<br>
 * click 'Tools' > 'Script Editor' and copy/paste the contents of 'script.gs' into the Editor
 * follow the instructions which are written in top of the script
 * click 'Publish' > 'Deploy as webapp' and copy/paste the app-url 
+<br><br>
+Now turn this spreadsheet into an api at sheetlabs.com, this eventually will give you an api-url.
+<br>
+<br>
 
 then clone this repo
 
