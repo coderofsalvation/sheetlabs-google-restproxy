@@ -71,3 +71,4 @@ Who knows this will happen at some point.
 * ensure proper forwarding of GET-filters
 * forward the authentication tokens somehow. Sheetlabs has perfect usermanagement with roles e.g., so it
 would not be smart to re-invent that wheel.
+
