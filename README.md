@@ -58,7 +58,16 @@ And you should end up seeing something like this:
 
 the google appscript is currently configured to route POST-request into the 'Sheet1'-tab, and the PUT/DELETE into 'Incoming. This is for example purposes only, you can modify it to your likings.
 
+Ultimate solution would be if sheetlabs would allow PUT/DELETE/POST-hooks like so:
+
+<img src=".res/hooks.png"/>
+
+By doing so, one would not need this kind of proxysolution, and every call would immediately benefit from 
+the sheetlab usermanagement/auth-features.
+Who knows this will happen at some point.
+
 # Todo
 
+* ensure proper forwarding of GET-filters
 * forward the authentication tokens somehow. Sheetlabs has perfect usermanagement with roles e.g., so it
 would not be smart to re-invent that wheel.
