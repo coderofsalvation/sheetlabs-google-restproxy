@@ -4,10 +4,10 @@
   "description": "gscript + nodejs rest-proxy which turn a google spreadsheet in sheetlabs.com into a full REST api",
   "main": "app.js",
   "dependencies": {
-    "body-parser": "~1.6.7",
-    "express": "~4.8.7",
+    "body-parser": "~1.17.1",
+    "express": "~4.16.0",
     "http": "~0.0.0",
-    "request": "~2.40.0",
+    "request": "~2.81.0",
     "querystring": "~0.2.0"
   },
   "devDependencies": {},
